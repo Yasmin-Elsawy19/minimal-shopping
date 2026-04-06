@@ -1,16 +1,41 @@
-# React + Vite
+ # 🛒 E-Commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+This is a responsive E-commerce web application built to provide users with a smooth shopping experience.  
+The project includes product browsing, product details, authentication, and a structured team workflow.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Home page with featured products
+- List all products page
+- Product details page
+- User login functionality
+- Responsive design for all devices
+- Clean and reusable components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+ ## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js  
+- Bootstrap 5  
+- JavaScript (ES6+)  
+- HTML5  
+- CSS3  
+- Git & GitHub for version control    
+
+---
+
+## 👥 Team Responsibilities
+
+| Name              | Tasks |
+|------------------|------|
+| Nada Ali         | Home Page, List All Products |
+| Sohaila Elbana   | Product Details Page |
+| Mohamed Ismail   | Login Page |
+| Yasmin Elsawy    | GitHub repository setup, project initialization, migration, branch management |
+
+
+ 
