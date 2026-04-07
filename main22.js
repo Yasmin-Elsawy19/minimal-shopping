@@ -27,4 +27,18 @@ btn.addEventListener("click",function(){
 })
 
 })     
+          let productCard=document.querySelector(".product-card")
+
+          product-card.addEventListener("click",function(){
+          let wishIcon=document.querySelector(".wish-icon i")
+          wishIcon.classList.toggle("active-heart");
+        
+        if(wishIcon.classList.contains("active-heart")) {
+            wishicon.classList.replace("fa-regular", "fa-solid");
+        } else {
+            wishIcon.classList.replace("fa-solid", "fa-regular");
+        }
+    });
+
+
           
