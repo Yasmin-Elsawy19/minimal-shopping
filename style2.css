@@ -1,0 +1,103 @@
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+.banner{
+    background-image: url('./images/ad-group\ .png');
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 12px;
+}
+.titleproducts{
+    text-align: center;
+        width:100%;
+
+}
+.banner-content{
+    text-align: center;
+    color: #ffffff;
+}
+.product-card{
+    width: 280px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+}
+.image-container img{
+width:100%;
+height: 250px;
+object-fit: cover;
+border-radius: 12px;
+}
+.product-info{
+    padding-top: 10px;
+}
+.title{
+    margin: 0;
+}
+
+.price{
+    color: #000000;
+}
+
+.description{
+    margin: 0;
+    line-height: 1.2;
+    font-size: 12px;
+}
+.title-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.btn{
+    background-color: #fff;
+    color: #333;
+    padding: 12px 40px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+.btn:hover {
+    background-color: #f0f0f0;
+}
+.active-heart {
+    color: red !important;
+    transform: scale(1.2); 
+    transition: 0.3s;
+}
+.wish-icon i {
+    cursor: pointer;
+    transition: 0.3s;
+}
