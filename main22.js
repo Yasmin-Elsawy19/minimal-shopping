@@ -23,7 +23,7 @@ container.innerHTML +=`
 `;
 });
 btn.addEventListener("click",function(){
-    window.location.href="index2.html";
+    window.location.href="index2.html?view=remaining";
 })
 
 })     

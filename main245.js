@@ -6,7 +6,7 @@ let container2=document.querySelector(".allproducts")
 
 
 let remainingproducts=data.products.slice(8);
-let productsh=remainingproducts.products.map(product =>{
+let productsh=remainingproducts.map(product =>{
 return `
 <div class="product-card">
 <div class="image-container">
@@ -23,7 +23,7 @@ return `
 </div>
 `
 }).join('');
-container2.innerHTML=productsh;
+container2.innerHTML += productsh;
 
     
 });
