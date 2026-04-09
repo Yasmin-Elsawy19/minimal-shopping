@@ -17,6 +17,9 @@ header{
     width: 100%;
     margin-top: 12px;
 }
+.eight products{
+background: #f9f9f9;
+}
 .titleproducts{
     text-align: center;
         width:100%;
@@ -100,4 +103,16 @@ border-radius: 12px;
 .wish-icon i {
     cursor: pointer;
     transition: 0.3s;
+}
+.pro{
+    background-color: #f2f2f2;
+}
+.allproducts{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
